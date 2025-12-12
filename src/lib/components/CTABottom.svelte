@@ -1,59 +1,77 @@
 <section class="py-24 px-6 md:px-12 max-w-7xl mx-auto">
 	<div class="text-center mb-16">
 		<span class="font-mono text-[10px] text-gray-500 uppercase tracking-widest mb-4 block">
-			[ NEED CONVINCING? ]
+			[ READY TO GET STARTED? ]
 		</span>
 		<h2 class="font-display text-4xl md:text-5xl font-medium tracking-tight text-gray-900 mb-4">
-			Tell your CTO about Greptile
+			Start building with Devplan today
 		</h2>
 		<p class="font-mono text-sm text-gray-600">
-			Need to convince your company to get Greptile? We can help.
+			Join teams that are shipping faster with context-rich specs
 		</p>
 	</div>
 
 	<div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 		<div class="bg-[#F3F3F1] p-8 rounded-lg border border-gray-200">
-			<form class="space-y-4">
+			<div class="space-y-6">
 				<div>
-					<label for="to" class="block text-[10px] font-mono text-gray-500 uppercase mb-1">To:</label>
-					<input type="email" id="to" value="cto@acme.ai" class="w-full bg-white border border-gray-200 rounded px-3 py-2 text-sm font-mono text-gray-900 focus:outline-none focus:border-brand-green" />
-				</div>
-				
-				<div>
-					<label for="body" class="block text-[10px] font-mono text-gray-500 uppercase mb-1">Your Body & Name:</label>
-					<textarea id="body" rows="4" class="w-full bg-white border border-gray-200 rounded px-3 py-2 text-sm font-mono text-gray-900 focus:outline-none focus:border-brand-green resize-none">Calvin Kim</textarea>
-				</div>
-				
-				<div>
-					<label for="name" class="block text-[10px] font-mono text-gray-500 uppercase mb-1">Your Name:</label>
-					<input type="text" id="name" value="Ilya Mura" class="w-full bg-white border border-gray-200 rounded px-3 py-2 text-sm font-mono text-gray-900 focus:outline-none focus:border-brand-green" />
+					<h3 class="font-display text-2xl font-medium text-gray-900 mb-4">Start your free trial</h3>
+					<p class="text-sm text-gray-600 mb-6">
+						No credit card required. Get up and running in minutes.
+					</p>
 				</div>
 
-				<button type="button" class="w-full bg-black text-white py-3 rounded text-sm font-medium hover:bg-gray-800 transition-colors flex items-center justify-center gap-2 font-mono uppercase tracking-wide">
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-					Send Email
+				<div class="space-y-4">
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary-600 shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5"/></svg>
+						<div>
+							<div class="font-medium text-gray-900 text-sm">14-day free trial</div>
+							<div class="text-xs text-gray-600">Full access to all features</div>
+						</div>
+					</div>
+
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary-600 shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5"/></svg>
+						<div>
+							<div class="font-medium text-gray-900 text-sm">Connect your repos</div>
+							<div class="text-xs text-gray-600">GitHub, GitLab, Bitbucket supported</div>
+						</div>
+					</div>
+
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary-600 shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5"/></svg>
+						<div>
+							<div class="font-medium text-gray-900 text-sm">Team rollout in 1 day</div>
+							<div class="text-xs text-gray-600">Get your team productive fast</div>
+						</div>
+					</div>
+				</div>
+
+				<button class="w-full bg-primary-600 text-white py-3 rounded text-sm font-medium hover:bg-primary-700 transition-colors flex items-center justify-center gap-2 font-mono uppercase tracking-wide">
+					Start Free Trial
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
 				</button>
-			</form>
-            
-            <div class="mt-6 pt-6 border-t border-gray-200 text-center">
-                <span class="text-xs text-gray-500 font-mono mb-4 block">OR</span>
-                <button class="bg-brand-green text-white px-6 py-3 rounded text-sm font-medium hover:bg-brand-green-hover transition-colors w-full font-mono uppercase tracking-wide">
-                    Try For Free ->
-                </button>
-                <p class="text-[10px] text-gray-400 font-mono uppercase mt-2">
-                    14 days free - no credit card required
-                </p>
-            </div>
+
+				<div class="text-center pt-4 border-t border-gray-200">
+					<p class="text-xs text-gray-500 font-mono">
+						Want a demo first? <a href="#" class="text-primary-600 hover:underline">Book a call</a>
+					</p>
+				</div>
+			</div>
 		</div>
 
 		<div class="flex items-center justify-center">
-			<!-- Envelope Illustration -->
-			<div class="w-full max-w-xs aspect-[4/3] bg-white border border-gray-200 shadow-lg relative transform rotate-3 flex items-center justify-center">
-                <div class="absolute inset-0 bg-gray-50 opacity-50"></div>
-                <!-- Envelope Flap -->
-                <div class="absolute top-0 left-0 right-0 h-1/2 bg-white border-b border-gray-200 origin-top transform" style="clip-path: polygon(0 0, 50% 100%, 100% 0);"></div>
-                <div class="z-10 text-gray-300">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+			<!-- Calendar/Planning Illustration -->
+			<div class="w-full max-w-xs aspect-square bg-white border-2 border-gray-200 shadow-lg relative transform rotate-3 flex items-center justify-center rounded-lg overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-primary-50 to-white opacity-50"></div>
+                <div class="z-10 text-primary-200 p-8">
+					<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+						<rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+						<line x1="16" y1="2" x2="16" y2="6"/>
+						<line x1="8" y1="2" x2="8" y2="6"/>
+						<line x1="3" y1="10" x2="21" y2="10"/>
+						<path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01"/>
+					</svg>
                 </div>
 			</div>
 		</div>

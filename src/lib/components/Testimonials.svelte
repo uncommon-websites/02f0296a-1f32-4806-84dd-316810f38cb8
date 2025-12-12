@@ -1,60 +1,60 @@
 <script lang="ts">
 	const testimonials = [
 		{
-			quote: "We've tried more code review tools than I can count. Greptile outperforms them all by a mile. Honestly the only AI reviewer that doesn't annoy the shit out of me.",
-			author: "James",
-			role: "CTO • Brex",
-			image: "https://i.pravatar.cc/150?u=james",
-            icon: "https://placehold.co/20x20/333/fff?text=B"
-		},
-		{
-			quote: "We've been impressed by Greptile's code review quality. It's tightened our feedback loops, improved consistency, and freed up engineers to focus on higher-level design and architecture.",
-			author: "Mark",
-			role: "Eng Manager • Vercel",
-			image: "https://i.pravatar.cc/150?u=mark",
-            icon: "https://placehold.co/20x20/000/fff?text=V"
-		},
-		{
-			quote: "Greptile helps the team do their best work. It levels everybody up and helps ensure that we're all proud of our code",
-			author: "Anirudh",
-			role: "Tech Lead • Sourcegraph",
-			image: "https://i.pravatar.cc/150?u=anirudh",
-            icon: "https://placehold.co/20x20/purple/fff?text=S"
-		},
-		{
-			quote: "Greptile is one of the most impressive AI code review tools I've used. It's right up there with Cursor in terms of changing the game.",
-			author: "Marlin",
-			role: "CTO • Ponder.sh",
-			image: "https://i.pravatar.cc/150?u=marlin",
-            icon: "https://placehold.co/20x20/blue/fff?text=P"
-		},
-		{
-			quote: "I'm thankful for the things Greptile catches in my pull requests.",
-			author: "Hahnbee",
-			role: "CTO • Mintlify",
-			image: "https://i.pravatar.cc/150?u=hahnbee",
-            icon: "https://placehold.co/20x20/green/fff?text=M"
-		},
-		{
-			quote: "Greptile has been the first AI code review tool I've used that actually provides useful feedback on PRs. It's catching issues that human reviewers easily miss and giving senior-level suggestions to boot",
-			author: "Chase",
-			role: "CTO • Million.js",
-			image: "https://i.pravatar.cc/150?u=chase",
-            icon: "https://placehold.co/20x20/red/fff?text=M"
-		},
-        {
-			quote: "Took me a year, but I finally signed up -- wow. Greptile's code reviews are very good. Been using this for a few weeks now, the team is very responsive! Highly recommended!",
-			author: "Chris",
-			role: "CTO • Sentry",
-			image: "https://i.pravatar.cc/150?u=chris",
+			quote: "This tool is a game-changer, helping us save tons of time when shaping our app ideas with clarity.",
+			author: "Seddick T.",
+			role: "Product Leader",
+			image: "https://i.pravatar.cc/150?u=seddick",
             icon: "https://placehold.co/20x20/333/fff?text=S"
 		},
+		{
+			quote: "Using Devplan felt like magic... it felt like having an experienced PM working with me.",
+			author: "Omar S.",
+			role: "Founder",
+			image: "https://i.pravatar.cc/150?u=omar",
+            icon: "https://placehold.co/20x20/000/fff?text=O"
+		},
+		{
+			quote: "It's really good at giving you a quick glance at edge cases you'll need to cover.",
+			author: "Adam L.",
+			role: "Tech Solutions Architect",
+			image: "https://i.pravatar.cc/150?u=adam",
+            icon: "https://placehold.co/20x20/purple/fff?text=A"
+		},
+		{
+			quote: "We are running our 15 person VC-backed company right now without a PM. Devplan helps fills that gap for us... What used to take me days of back and forth and refinement I'm now doing in less than a hour.",
+			author: "Andrew N.",
+			role: "YC-backed Founder",
+			image: "https://i.pravatar.cc/150?u=andrew",
+            icon: "https://placehold.co/20x20/blue/fff?text=Y"
+		},
+		{
+			quote: "The conversational collaborative way we are working together on these docs, it really helps tease out the details.",
+			author: "Stuart B.",
+			role: "Agency Owner",
+			image: "https://i.pravatar.cc/150?u=stuart",
+            icon: "https://placehold.co/20x20/green/fff?text=S"
+		},
+		{
+			quote: "Pricing is very reasonable for what it offers.",
+			author: "George K.",
+			role: "Tech Lead",
+			image: "https://i.pravatar.cc/150?u=george",
+            icon: "https://placehold.co/20x20/red/fff?text=G"
+		},
         {
-			quote: "Took just 15 min to do the setup and it's been a game-changer. It catches small bugs that could easily slip through in big PRs and speeds up our release cycle.",
-			author: "Harish",
-			role: "CTO • Flexpa",
-			image: "https://i.pravatar.cc/150?u=harish",
-            icon: "https://placehold.co/20x20/orange/fff?text=F"
+			quote: "Before Devplan I used to run a lot of prompts for Idea --> PRD, PRD --> Tasks, Tasks --> GUI.",
+			author: "Alon U.",
+			role: "Principal Designer",
+			image: "https://i.pravatar.cc/150?u=alon",
+            icon: "https://placehold.co/20x20/333/fff?text=A"
+		},
+        {
+			quote: "This is a game changer tool for solo entrepreneurs... I am defining and executing projects much faster with it.",
+			author: "Ramy V.",
+			role: "Entrepreneur",
+			image: "https://i.pravatar.cc/150?u=ramy",
+            icon: "https://placehold.co/20x20/orange/fff?text=R"
 		}
 	];
 </script>
@@ -65,10 +65,10 @@
 			[ TESTIMONIALS ]
 		</span>
 		<h2 class="font-display text-4xl md:text-5xl font-medium tracking-tight text-gray-900 mb-4">
-			From Developers That Use Greptile
+			Loved by Product Teams
 		</h2>
 		<p class="font-mono text-sm text-gray-600">
-			See what developers are saying about their experience with Greptile
+			From solo founders to VC-backed companies, teams are shipping faster with Devplan
 		</p>
 	</div>
 

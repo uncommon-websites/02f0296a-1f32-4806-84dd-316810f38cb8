@@ -3,32 +3,32 @@
 
 	const faqs = [
 		{
-			question: "How does Greptile pricing work?",
-			answer: "Greptile charges per active developer. An active developer is anyone who opens a PR in a given month."
+			question: "How does Devplan pricing work?",
+			answer: "Devplan offers a Builder plan at $24/month for individuals, and a Team plan at $49/month for up to 3 users ($19 per additional user). Enterprise plans with custom pricing are also available."
 		},
 		{
-			question: "Can Greptile be self-hosted?",
-			answer: "Yes, Greptile can be deployed in your own VPC or on-premise environment. Contact us for enterprise pricing."
+			question: "What integrations does Devplan support?",
+			answer: "Devplan integrates with GitHub, GitLab, Bitbucket, Linear, Jira, Cursor, Windsurf, Claude Code, v0, Bolt, and includes an MCP server for delivering specs to AI coding agents."
 		},
 		{
-			question: "Are there free trials or discounts available for Greptile?",
-			answer: "Yes, we offer a 14-day free trial with no credit card required. We also offer discounts for startups and open source projects."
+			question: "Is there a free trial available?",
+			answer: "Yes, we offer a 14-day free trial with no credit card required. You get full access to all features during the trial period."
 		},
 		{
-			question: "What programming languages does Greptile support?",
-			answer: "Greptile supports over 30 languages including Python, TypeScript/JavaScript, Go, Rust, Java, C++, and more."
+			question: "How does Devplan analyze my codebase?",
+			answer: "Devplan scans your repositories to understand your architecture, patterns, and dependencies. This context is used to generate specs that are aligned with your existing codebase."
 		},
 		{
-			question: "Is Greptile compatible with GitLab?",
-			answer: "Yes, Greptile works with both GitHub and GitLab."
+			question: "Can Devplan work with my existing workflow?",
+			answer: "Yes, Devplan is designed to integrate seamlessly with your existing tools. It works alongside Linear, Jira, and your favorite AI coding tools through our MCP server integration."
 		},
 		{
-			question: "Can I use Greptile's API for my own product?",
-			answer: "Yes, we have a comprehensive API. Check out our documentation for more details."
+			question: "What's the difference between Devplan and traditional PRD tools?",
+			answer: "Unlike traditional PRD tools, Devplan generates context-rich specs specifically designed for AI coding agents. It understands your codebase and creates specifications that prevent AI hallucinations."
 		},
 		{
-			question: "What is AI code review?",
-			answer: "AI code review uses large language models to analyze your code changes and provide feedback on bugs, security issues, and coding standards."
+			question: "How long does it take to get started?",
+			answer: "Most teams are up and running in less than a day. Simply connect your repositories, and Devplan will start analyzing your codebase to provide context-aware spec generation."
 		}
 	];
 
@@ -51,7 +51,7 @@
 			<p class="font-mono text-sm text-gray-600 mb-8">
 				Your question not answered here?
 			</p>
-			<button class="bg-brand-green text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-brand-green-hover transition-colors flex items-center gap-2 font-mono uppercase tracking-wide text-xs">
+			<button class="bg-primary-600 text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-primary-700 transition-colors flex items-center gap-2 font-mono uppercase tracking-wide text-xs">
 				<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
 				Contact Us
 			</button>
@@ -61,7 +61,7 @@
 			{#each faqs as faq, i}
 				<div class="border-b border-gray-200 pb-4">
 					<button class="w-full flex items-center justify-between text-left py-2 group" on:click={() => toggle(i)}>
-						<span class="font-mono text-sm font-medium text-gray-800 group-hover:text-brand-green transition-colors pr-8">{faq.question}</span>
+						<span class="font-mono text-sm font-medium text-gray-800 group-hover:text-primary-600 transition-colors pr-8">{faq.question}</span>
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-400 transition-transform duration-300 {openIndex === i ? 'rotate-180' : ''}"><path d="m6 9 6 6 6-6"/></svg>
 					</button>
 					{#if openIndex === i}
